@@ -36,7 +36,7 @@
     font-family: 'Raleway', sans-serif;
     margin-left: 16px;
     font-weight: 800;
-    font-size: 26px;
+    font-size: 18px;
     line-height: 31px;
     letter-spacing: 0.03em;
 }
@@ -144,6 +144,7 @@
      text-align: center;
      letter-spacing: 0.02em;
      color: #FFFFFF;
+     padding-left: 5px;
 
  }
 
@@ -154,7 +155,7 @@
 }
 
 .banner {
-    width: 95%;
+    width: 100%;
     height: 432px;
     align-items: center;
     text-align: center;
@@ -205,6 +206,8 @@
     line-height: 40px;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: -5px;
+    margin-bottom: 8px;
 }
         
 .text_box {
@@ -214,6 +217,7 @@
 }
         
 .text_preferences {
+    margin: 0px;
     letter-spacing: 0.03em;
     width: 270px;
     height: 75px;
@@ -513,7 +517,7 @@
         font-family: 'Raleway', sans-serif;
         margin-left: 16px;
         font-weight: 800;
-        font-size: 26px;
+        font-size: 18px;
         line-height: 31px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -968,11 +972,11 @@
 }
 .modal {
     position: absolute;
-    width: 310px;
+    width: 300px;
     height: 700px;
     background-color: #FFFFFF;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
     transition: 250ms linear;
 }
 #icon-cross {
@@ -1031,7 +1035,7 @@
     transform: translate(-50%);
 }
 .check-txt {
-    font-size: 1;
+    font-size: 9px;
     color: #757575;
     display: flex;
     justify-content: center;
@@ -1225,7 +1229,7 @@
             font-family: 'Raleway', sans-serif;
             margin-left: 16px;
             font-weight: 800;
-            font-size: 26px;
+            font-size: 18px;
             line-height: 31px;
             letter-spacing: 0.03em;
         }
@@ -1328,7 +1332,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 10%;
+            top: 45%;
             bottom: 50%;
             left: 50%;
             right: 50%;
@@ -1357,7 +1361,7 @@
         }
     
         .banner {
-            width: 95%;
+            width: 100%;
             height: 432px;
             align-items: center;
             text-align: center;
@@ -1410,14 +1414,18 @@
         }
     
         .text_box {
-            margin-left: 30px;
+            margin-left: 0px;
             font-weight: 400;
             line-height: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     
         .text_preferences {
             letter-spacing: 0.03em;
-            width: 270px;
+            width: 410px;
             height: 75px;
             font-weight: 500;
             font-size: 16px;
@@ -1685,7 +1693,6 @@
             border: 0px;
             height: 662px;
             background-color: #2F303A;
-    
         }
     
         .footer-sup {
@@ -1696,7 +1703,6 @@
         }
     
         .footer-list-all {
-    
             list-style: none;
             padding-left: 0;
         }
@@ -1715,7 +1721,7 @@
             font-family: 'Raleway', sans-serif;
             margin-left: 16px;
             font-weight: 800;
-            font-size: 26px;
+            font-size: 18px;
             line-height: 31px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
@@ -2483,7 +2489,7 @@
             font-family: 'Raleway', sans-serif;
             margin-left: 16px;
             font-weight: 800;
-            font-size: 26px;
+            font-size: 18px;
             line-height: 31px;
             letter-spacing: 0.03em;
         }
@@ -2506,12 +2512,13 @@
             padding-left: 76px;
             font-style: normal;
             font-weight: 600;
-            line-height: 24px;
+            line-height: 10px;
             gap: 40px;
         }
     
         .link-menu {
             color: #2E2F42;
+            font-size: 16px;
         }
     
         .menu_adres {
@@ -2531,11 +2538,15 @@
             display: inline;
             text-decoration: none;
             color: #212121;
+            font-size: 12px;
+            color: #434455;
         }
     
         .menu-phone {
             display: inherit;
             padding-top: 4px;
+            font-size: 12px;
+            color: #434455;
         } 
     
         .mobile-icon-div {
@@ -2589,7 +2600,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 20%;
+            top: 30%;
             bottom: 50%;
             left: 50%;
             right: 50%;
@@ -2622,7 +2633,7 @@
         }
     
         .banner {
-            width: 95%;
+            width: 100%;
             height: 432px;
             align-items: center;
             text-align: center;
@@ -2666,9 +2677,9 @@
     
         .section-preferences {
             display: block;
-            width: 700px;
-            height: 620px;
-            margin-left: 40px;
+            width: 757px;
+            height: 530px;
+            margin-left: 0px;
            
             
         }
@@ -2694,7 +2705,7 @@
     
         .text_preferences {
             letter-spacing: 0.03em;
-            width: 270px;
+            width: 356px;
             height: 75px;
             font-weight: 500;
             font-size: 16px;
@@ -3163,7 +3174,7 @@
     
         .footer-input-btn {
             display: flex;
-            padding-top: 20px;
+            padding-top: 5px;
             gap: 12px;
     
         }
@@ -3417,10 +3428,10 @@
             padding: 0px 0px 00px 00px;
         }
     
-        #modal-comment {
+        /* #modal-comment {
             height: 120px;
             width: 100%;
-        }
+        } */
     
         .text-input {
             font-style: normal;
@@ -3522,6 +3533,7 @@
             border: 1px solid rgba(33, 33, 33, 0.2);
             border-radius: 4px;
             resize: none;
+
         }
     
         .modal-btn-send {
@@ -3615,11 +3627,12 @@
     
         #modal-comment {
             height: 120px;
-            width: 100%;
-            padding-left: 20px;
+            width: 325px;
+            padding-left: 10px;
             padding-top: 8px;
             color: #757575;
             opacity: 50%;
+
         }
     
         .text-input {
@@ -3681,9 +3694,9 @@
 .logo {
     color: #2E2F42;
     font-family: 'Raleway', sans-serif;
-    margin-left: 156px;
+    /* margin-left: 156px; */
     font-weight: 800;
-    font-size: 26px;
+    font-size: 18px;
     line-height: 31px;
     letter-spacing: 0.03em;
 }
@@ -3703,7 +3716,7 @@
     list-style: none;
     padding-left: 76px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
     gap: 40px;
     margin: 3px 10px;
@@ -3729,7 +3742,7 @@
     display: inherit;
     flex-direction: row;
     margin-left: auto;
-    margin-right: 156px;
+    /* margin-right: 156px; */
     line-height: 16px;
     letter-spacing: 0.02em;
     gap: 40px;
@@ -3743,11 +3756,15 @@
     text-decoration: none;
     color: #212121;
     margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .menu-phone {
     display: inherit;
     padding-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .mobile-icon-div {
@@ -3805,7 +3822,7 @@
 .title-btn {
     flex-direction: column;
     position: absolute;
-    top: 30%;
+    top: 40%;
     bottom: 50%;
     left: 50%;
     right: 50%;
@@ -3818,10 +3835,10 @@
 .title1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    width: 400px;
+    width: 496px;
     height: 120px;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 56px;
     line-height: 50px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -3839,7 +3856,7 @@
 }
 
 .banner {
-    width: 100%;
+    width: 1440px;
     height: 600px;
     align-items: center;
     text-align: center;
@@ -3853,21 +3870,21 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 50px;
+    width: 169px;
+    height: 56px;
     /* margin-left: 37px; */
     position: absolute;
     display: block;
-    margin-top: 110px;
+    margin-top: 170px;
 }
 
 .textbutn {
     width: 180px;
-    font-weight: 700;
+   font-weight: 500;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 24px;
     display: inline;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 
@@ -3908,6 +3925,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 8px;
  }
 
  .text_box {
@@ -4256,9 +4274,9 @@
  }
 
  .footer-list-all:nth-child(1) {
-     margin-left: 100px;
+     margin-left: 0px;
      margin-right: 0px;
-     gap: 10px;
+     gap: 0px;
  }
 
  .lisubscribe,
@@ -4312,6 +4330,7 @@
      padding-top: 50px;
      width: 206px;
      height: 80px;
+     padding-left: 80px;
  }
 
  .footer_link_text {
@@ -4388,7 +4407,7 @@
  .footer-subscribe {
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 70px;
     justify-content: center;
     align-items: center;
     padding-top: 45px;
@@ -4443,7 +4462,7 @@
  .button-subscribe {
      display: block;
      width: 165px;
-     height: 45px;
+     height: 40px;
      background: #4D5AE5;
      box-shadow: none;
      border-radius: 6px;
@@ -4460,7 +4479,7 @@
 
  #text-subscribe {
      color: #ECECEC;
-     font-weight: 700;
+     font-weight: 500;
      font-size: 16px;
      line-height: 24px;
  }
@@ -4629,11 +4648,11 @@
 
  .modal {
      position: absolute;
-     width: 528px;
+     width: 408px;
      height: 650px;
      background-color: #FFFFFF;
      margin-top: 50px;
-     margin-left: 180px;
+     margin-left: 20%;
      transition: 250ms linear;
  }
 
@@ -4771,7 +4790,7 @@
  }
 
  .modal-btn-send2 {
-     padding-left: 140px;
+     padding-left: 100px;
  }
 
  .send-btn-txt {
@@ -4782,8 +4801,8 @@
 
  .modal_title {
      padding-top: 24px;
-     font-weight: 700;
-     font-size: 20px;
+     font-weight: 500;
+     font-size: 16px;
 
      text-align: center;
      letter-spacing: 0.03em;
@@ -4852,8 +4871,8 @@
 
  #modal-comment {
      height: 120px;
-     width: 100%;
-     padding-left: 20px;
+     width: 325px;
+     padding-left: 10px;
      padding-top: 8px;
      color: #757575;
      opacity: 50%;
