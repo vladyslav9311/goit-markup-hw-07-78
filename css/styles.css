@@ -2196,7 +2196,7 @@
             transition: 250ms linear;
             top: 10%;
             right: 50%;
-            left: 15%;
+            left: 6%;
 
         }
     
@@ -3401,6 +3401,9 @@
             /* margin-top: 40px;
             margin-left: 40px; */
             transition: 250ms linear;
+            top: 5%;
+                right: 50%;
+                left: 21%;
         }
     
         #icon-cross {
