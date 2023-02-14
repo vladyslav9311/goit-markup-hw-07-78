@@ -8,6 +8,7 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
+    margin: 0;
 
 }
 
@@ -90,7 +91,7 @@
     margin-right: 25px;
     position: absolute;
     right: 10px;
-    top: 30px;
+    top: 20px;
 }
 
 .mobile-menu-icon {
@@ -169,7 +170,7 @@
     border-color: transparent;
     display: block;
     margin-left: 0;
-    margin-right: 25px;
+    margin-right: 0px;
     width: 169px;
     height: 56px;
 }
@@ -314,6 +315,7 @@
     align-items: center;
     gap: 30px;
     margin-right: 55px;
+    padding-left: 55px;
 
 }
 
@@ -429,7 +431,7 @@
     /* padding-top: 50px; */
     /* padding-left: 15px; */
     /* gap: 5px; */
-    padding-left: 0;
+    padding-left: 10px;
     margin-bottom: 94px;
     justify-content: center;
     align-items: center;
@@ -648,6 +650,7 @@
     background-color: transparent;
     padding-left: 16px;
     margin-right: 16px;
+    color: #ECECEC;
 }
 
 #text-subscribe {
@@ -969,6 +972,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 100;
+    overflow-y: auto;
 }
 .modal {
     position: absolute;
@@ -1202,6 +1206,7 @@
             text-decoration: none;
             font-weight: 500;
             font-size: 14px;
+            margin: 0;
         }
     
         .container {
@@ -1289,11 +1294,13 @@
             margin-right: 25px;
             position: absolute;
             right: 10px;
-            top: 30px;
+            top: 20px;
         }
     
         .mobile-menu-icon {
             fill: #000;
+            height: 29px;
+            width: 20px;
         }
     
         .header-hover:hover {
@@ -1374,7 +1381,7 @@
             border-color: transparent;
             display: block;
             margin-left: 0;
-            margin-right: 25px;
+            margin-right: 0px;
             width: 169px;
             height: 56px;
         }
@@ -1752,7 +1759,7 @@
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
-            padding-left: 100px;
+            padding-left: 70px;
             line-height: 24px;
             letter-spacing: 0.02em;
             color: #FFFFFF;
@@ -1851,6 +1858,7 @@
             height: 40px;
             background-color: transparent;
             padding-left: 16px;
+            color: #ECECEC;
         }
     
         #text-subscribe {
@@ -2183,6 +2191,7 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.2);
             z-index: 100;
+            overflow-y: auto;
         }
     
         .modal {
@@ -2461,6 +2470,7 @@
             text-decoration: none;
             font-weight: 500;
             font-size: 14px;
+            margin: 0;
         }
     
         .container {
@@ -3160,7 +3170,7 @@
             padding-left: 70px;
             justify-content: center;
             align-items: center;
-            padding-top: 70px;
+            padding-top: 40px;
             list-style: none;
         }
     
@@ -3188,6 +3198,7 @@
             background-color: transparent;
             padding-left: 16px;
             margin-right: 16px;
+            color: #ECECEC;
         }
         .lisubscribe{
             display: block;
@@ -3391,6 +3402,7 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.2);
             z-index: 100;
+            overflow-y: auto;
         }
     
         .modal {
@@ -3403,7 +3415,8 @@
             transition: 250ms linear;
             top: 5%;
                 right: 50%;
-                left: 21%;
+                left: 20%;
+                overflow-x; scroll
         }
     
         #icon-cross {
@@ -3670,6 +3683,7 @@
         text-decoration: none;
         font-weight: 500;
         font-size: 14px;
+        margin: 0;
         
     }
 
@@ -3947,7 +3961,7 @@
      letter-spacing: 0.03em;
      width: 270px;
      height: 75px;
-     font-weight: 500;
+     font-weight: 400;
      font-size: 15px;
      line-height: 24px;
      flex: none;
@@ -4441,6 +4455,7 @@
      background-color: transparent;
      padding-left: 16px;
      margin-right: auto;
+     color: #ECECEC;
  }
 
  .lisubscribe {
@@ -4647,6 +4662,7 @@
      height: 100%;
      background-color: rgba(0, 0, 0, 0.2);
      z-index: 100;
+    overflow-y: auto;
  }
 
  .modal {
@@ -4655,7 +4671,7 @@
      height: 650px;
      background-color: #FFFFFF;
      margin-top: 50px;
-     margin-left: 20%;
+     margin-left: 15%;
      transition: 250ms linear;
  }
 
